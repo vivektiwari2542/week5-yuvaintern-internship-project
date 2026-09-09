@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A responsive Single Page Application simulation built with HTML, CSS and vanilla JavaScript.">
+  <title>Vivek | SPA Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" data-route><span>V</span> Vivek.dev</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav" aria-label="Primary navigation">
+      <a href="/" data-route data-page="home">Home</a>
+      <a href="/about" data-route data-page="about">About</a>
+      <a href="/projects" data-route data-page="projects">Projects</a>
+      <a href="/contact" data-route data-page="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="app" class="app" aria-live="polite"></main>
+
+  <footer class="site-footer">
+    <p>© 2026 Vivek.dev · Built with HTML, CSS & JavaScript</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
